@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.mdcontainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+}
+.balance {
+  display: flex;
+  flex-direction: row;
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+  height: 150px;
+  width: 350px;
+  border-radius: 5px;
+  padding: 20px;
+}
+.balanceimg {
+  height: 80px;
+  width: 100px;
+}
+.balancetext {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3%;
+}
+.balancepara {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.balanceamount {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-top: 0.5%;
+  font-weight: bold;
+}
+.income {
+  display: flex;
+  flex-direction: row;
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+  height: 150px;
+  width: 350px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 8%;
+}
+.expenses {
+  display: flex;
+  flex-direction: row;
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+  height: 150px;
+  width: 350px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 8%;
+}

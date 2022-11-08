@@ -1,0 +1,116 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100vh;
+  background-size: cover;
+  padding: 4%;
+}
+.cardcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  border-radius: 5px;
+  height: 170px;
+  width: 92%;
+}
+.cardheading {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  margin-left: 5%;
+}
+.cardpara {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 5%;
+  margin-top: 1%;
+}
+.cardspan {
+  color: #0b69ff;
+  font-style: italic;
+  font-size: 15px;
+}
+.thirdcont {
+  display: flex;
+  flex-direction: row;
+}
+.formcont {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #d7dfe9;
+  height: 45vh;
+  width: 30vw;
+  margin-top: 1%;
+  border-radius: 5px;
+  padding: 2%;
+}
+.formheading {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  margin-top: 3%;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-top: 3%;
+}
+.input {
+  border: 3px solid #d7dfe9;
+  border-radius: 5px;
+  width: 75%;
+  margin-top: 1%;
+}
+.formbtn {
+  color: white;
+  background-color: #0b69ff;
+  height: 40px;
+  width: 120px;
+  padding: 5px;
+  border: 0px;
+  border-radius: 5px;
+  margin-top: 2%;
+}
+.historycont {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #d7dfe9;
+  height: 45vh;
+  width: 53vw;
+  margin-top: 1%;
+  margin-left: 2%;
+  border-radius: 5px;
+  padding: 2%;
+}
+.hismheading {
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-top: 1 %;
+}
+.itemcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 2px solid #d7dfe9;
+  height: 8vh;
+  width: 50vw;
+  margin-top: 0.5%;
+
+  border-radius: 5px;
+  padding: 5px;
+}
+.histitle {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 14%;
+  font-weight: bold;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+}
+.hislistcont {
+  display: flex;
+  flex-direction: column;
+}

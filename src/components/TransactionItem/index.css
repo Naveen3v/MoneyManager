@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.tiitem {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+.tibtn {
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  border: 0px;
+}
+
+.tipara {
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-left: 0.3%;
+}
+.tiimg {
+  height: 22px;
+  width: 22px;
+}
